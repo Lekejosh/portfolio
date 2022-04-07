@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@400;500;600;700;800;900&display=swap");
+
+@layer Base {
+  body {
+    @apply font-[Raleway];
+  }
+  h2 {
+    @apply font-[Parisienne];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
