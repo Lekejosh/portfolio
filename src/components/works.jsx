@@ -12,11 +12,59 @@ const Works = () => {
           </p>
           <p className="py-6"> // Check out some of my recent work</p>
         </div>
-        <div
-          style={{ backgroundImage: `url(${Bench})` }}
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
-        >
-          <div className="shadow-lg shadow-[#040c16] group conatiner rounded-md flex justify-center mx-auto content-div">
+        {/*Container*/}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${Bench})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                BenchGrowth Investment Site
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://benchgrowthinvest.com" target="blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="https://github.com/Lekejosh/Binary" target="blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Blog})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Blog site
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="https://github.com/Lekejosh/Blog" target="blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Bench})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
             {/*Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -24,10 +72,84 @@ const Works = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="#">
-                  <button>Live</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
                 </a>
                 <a href="#">
-                  <button>Code</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${Bench})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                BenchGrowth Investment Site
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Blog})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Blog site
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Bench})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                BenchGrowth Investment Site
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
                 </a>
               </div>
             </div>
