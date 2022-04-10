@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Parisienne&family=Raleway:wght@400;500;600;700;800;900&display=swap");
 @layer Base {
   body {
     @apply font-[Raleway];
@@ -14,6 +13,16 @@
   li {
     @apply px-4;
     @apply cursor-pointer;
+  }
+}
+.logo {
+  font-family: Nunito;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+}
+@media (max-width: 800px) {
+  .navbar .logo {
+    font-size: 18px;
   }
 }
 

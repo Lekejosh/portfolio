@@ -1,4 +1,6 @@
 import React from "react";
+import { FaBars, FaTimes, FaGithub, FaTwitter } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -17,7 +19,10 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             // Submit the form below or shoot me an{" "}
-            <a className="text-bold" href="mailto:lekejosh6wf@gmail.com">
+            <a
+              className="text-bold border-b-4 border-pink-600"
+              href="mailto:lekejosh6wf@gmail.com"
+            >
               EMAIL
             </a>{" "}
           </p>
