@@ -31,19 +31,19 @@ const Contact = () => {
           className="bg-[#ccd6f6] p-2"
           type="text"
           placeholder="Name"
-          name="name"
+          name="name" required
         />
         <input
           className="my-4 py-2 bg-[#ccd6f6]"
           type="email"
           placeholder="Email"
-          name="email"
+          name="email" required
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows="10"
-          placeholder="Message"
+          placeholder="Message" required
         ></textarea>
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
