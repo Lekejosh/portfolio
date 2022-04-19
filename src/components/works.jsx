@@ -97,12 +97,15 @@ const Works = () => {
                 Weather App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://leke-weather.netlify.app/">
+                <a href="https://leke-weather.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Lekejosh/weather-app">
+                <a
+                  href="https://github.com/Lekejosh/weather-app"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
