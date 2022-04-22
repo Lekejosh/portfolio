@@ -3,6 +3,7 @@ import Bench from "../assets/benchgrowth.png";
 import Blog from "../assets/blog.png";
 import Todo from "../assets/todo.png";
 import WA from "../assets/weather.png";
+import crowd from "../assets/crowd.png";
 
 const Works = () => {
   return (
@@ -104,6 +105,32 @@ const Works = () => {
                 </a>
                 <a
                   href="https://github.com/Lekejosh/weather-app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${crowd})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Crowdfunding
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://fm-crowdfunding.vercel.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Lekejosh/Crowdfunding"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
