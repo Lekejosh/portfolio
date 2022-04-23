@@ -4,6 +4,7 @@ import Blog from "../assets/blog.png";
 import Todo from "../assets/todo.png";
 import WA from "../assets/weather.png";
 import crowd from "../assets/crowd.png";
+import calc from "../assets/calc.png";
 
 const Works = () => {
   return (
@@ -133,6 +134,23 @@ const Works = () => {
                   href="https://github.com/Lekejosh/Crowdfunding"
                   target="_blank"
                 >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Calculator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://leke-calc.netlify.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://leke-calc.netlify.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
                     Code
                   </button>
