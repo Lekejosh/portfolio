@@ -140,6 +140,10 @@ const Works = () => {
                 </a>
               </div>
             </div>
+            <div
+            style={{ backgroundImage: `url(${calc})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Calculator
@@ -157,6 +161,7 @@ const Works = () => {
                 </a>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
