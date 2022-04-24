@@ -5,7 +5,7 @@ import Todo from "../assets/todo.png";
 import WA from "../assets/weather.png";
 import crowd from "../assets/crowd.png";
 import calc from "../assets/calc.png";
-
+import auto from "../assets/AutoW.png";
 const Works = () => {
   return (
     <div name="Work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -158,6 +158,35 @@ const Works = () => {
                 </a>
                 <a
                   href="https://github.com/Lekejosh/calculator-app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${auto})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effects*/}
+            <div className="opacity-0 group-hover:opacity-80">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Auuto Location Weather Detector
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://lekejosh.github.io/Auto-Locate-Weather-App/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://lekejosh.github.io/Auto-Locate-Weather-App/"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-400 text-gray-700 font-bold text-lg">
