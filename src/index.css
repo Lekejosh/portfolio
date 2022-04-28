@@ -44,21 +44,21 @@
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-  scrollbar-width: auto;
-  scrollbar-color: #595c6e transparent !important;
+  scrollbar-width: none;
+  scrollbar-color: #8f54a0 #44516f;
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 16px;
+  width: 12px;
 }
 
 *::-webkit-scrollbar-track {
-  background: transparent;
+  background: #44516f;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #595c6e;
-  border-radius: 10px;
-  border: transparent;
+  background-color: #8f54a0;
+  border-radius: 17px;
+  border: -1px solid #ffffff;
 }
