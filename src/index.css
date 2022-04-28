@@ -44,7 +44,7 @@
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-  scrollbar-width: none;
+  scrollbar-width: auto;
   scrollbar-color: #8f54a0 #44516f;
 }
 
