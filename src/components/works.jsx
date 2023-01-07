@@ -19,11 +19,11 @@ const Works = () => {
         {/*Container*/}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*Grid Item*/}
-          <div
+          {/*<div
             style={{ backgroundImage: `url(${Bench})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/*Hover Effects*/}
+           
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
                 BenchGrowth Investment Site
@@ -41,7 +41,7 @@ const Works = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
           <div
             style={{ backgroundImage: `url(${Blog})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
